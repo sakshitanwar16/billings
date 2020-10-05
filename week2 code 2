@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+int main ()
+{
+double value;
+double result;
+printf("enter any value between 0 and 1");
+scanf("%f", & value);
+result= sin(value);
+printf( the sin of %f is %f \n, value , result);
+return 0;
+}
