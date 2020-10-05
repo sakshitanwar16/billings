@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+{
+        int number_of_seals;
+         float average,total_weight;
+         float weight[2000];
+    
+    scanf("%d", &number_of_seals); //input total number of seals
+    
+
+        for(i=0;scanf("%lf",&weight[i])!=EOF;i++);  // since here we are using a file to input the values no need to enter the values mannualy
+
+//the file could be directly compiled by redirecting the file containg the weights to the executable file of the program
+        
+        for(i=0; i<=number_of_seals;i++)
+        
+        {
+        total_weight=total_weight+weight[i];  // calculate total weight
+        
+        
+        }
+        average=total_weight/number_of_seals; // average weight calculation
+        
+    
+    
+    printf("%f", average);
+    return 0;
+    
+}
