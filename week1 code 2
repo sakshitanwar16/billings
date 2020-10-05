@@ -1,0 +1,18 @@
+# include<stdio.h>
+
+int main(void);
+
+{
+printf("The song I came to sing \n");
+printf("remains unsung to this day.\n");
+printf ("I have spent my days in stringing \n");
+printf ("and in unstringing my instrument.\n \n);
+
+printf("The time has not come true \n");
+printf("the words have not been rightly set\n");
+printf("only there is the agony \n"");
+printf("of wishing in my heart…..\n");
+
+return 0;
+
+}
